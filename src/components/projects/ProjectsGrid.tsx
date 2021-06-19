@@ -11,6 +11,7 @@ const projects: ProjectCardProps[] = [
     software: "Godot",
     imageSrc: "/images/minerInconvenience.png",
     link: "https://strudlay.itch.io/miner-inconvenicence",
+    repo: "https://github.com/ReillyWebster/minerInconvenience",
     contributors: "Marc Blanchard, Reilly Webster",
   },
   {
@@ -20,7 +21,8 @@ const projects: ProjectCardProps[] = [
     languages: "React, Typescript, Semantic UI React",
     software: "VS Code, Firebase",
     imageSrc: "/images/portfolioWebsite.png",
-    link: "",
+    link: "/",
+    repo: "https://github.com/ReillyWebster/portfolioWebsite",
     contributors: "Reilly Webster",
   },
 ];
