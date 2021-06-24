@@ -9,6 +9,7 @@ export const WebDevChartBackend: React.FC = () => {
       </Card.Header>
       <Segment inverted>
         <Progress value={100} total={100} inverted color="purple" label="C#" />
+        <Progress value={100} total={100} inverted color="purple" label="SQL" />
         <Progress
           value={100}
           total={100}
