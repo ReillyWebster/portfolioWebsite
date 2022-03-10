@@ -3,10 +3,23 @@ import ProjectCard, { ProjectCardProps } from "./ProjectCard";
 
 const projects: ProjectCardProps[] = [
   {
+    title: "Were The Wolf Wanders",
+    yearCreated: "2022",
+    description:
+      "Created using Unity for Ubisoft Halifax's Atlantic Game Jam 2022 Game Jam.",
+    languages: "C#",
+    software: "Unity, Ableton, ",
+    imageSrc: "/images/wereTheWolfWanders.png",
+    link: "https://casslmann.itch.io/were-the-wolf-wonders",
+    repo: "https://github.com/ReillyWebster/wereTheWolfWanders",
+    contributors:
+      "Arjun Banga, Cassie Mann, Justin Irving, Liam Rice, Reilly Webster, Tanner Murphy",
+  },
+  {
     title: "Miner Inconvenience",
     yearCreated: "2021",
     description:
-      "A game created using Godot's game engine for GameDev.tv's 2021 Game Jam.",
+      "Created using Godot's game engine for GameDev.tv's 2021 Game Jam.",
     languages: "GD Script",
     software: "Godot",
     imageSrc: "/images/minerInconvenience.png",

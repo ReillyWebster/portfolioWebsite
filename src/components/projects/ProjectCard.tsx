@@ -48,8 +48,10 @@ export const ProjectCard: React.FC<Project> = ({ project }) => {
         </a>
       </Card.Content>
       <Card.Content>
-        <Icon name="users" />
-        {project.contributors}
+        <div style={{ height: "60px" }}>
+          <Icon name="users" />
+          {project.contributors}
+        </div>
       </Card.Content>
     </Card>
   );
