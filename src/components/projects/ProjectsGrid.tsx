@@ -8,7 +8,7 @@ const projects: ProjectCardProps[] = [
     description:
       "Created using Unity for Ubisoft Halifax's Atlantic Game Jam 2022 Game Jam.",
     languages: "C#",
-    software: "Unity, Ableton, ",
+    software: "Unity, Ableton, Aesprite",
     imageSrc: "/images/wereTheWolfWanders.png",
     link: "https://casslmann.itch.io/were-the-wolf-wonders",
     repo: "https://github.com/ReillyWebster/wereTheWolfWanders",
