@@ -8,7 +8,7 @@ export interface ProjectCardProps {
   software: string;
   imageSrc: string;
   link: string;
-  repo: string;
+  repo?: string;
   contributors: string;
 }
 
@@ -37,15 +37,19 @@ export const ProjectCard: React.FC<Project> = ({ project }) => {
       </Card.Content>
       <Card.Content>
         <Icon name="linkify" />
-        <a href={project.link} target="noreferrer">
+        <a href={project.link} target="_blank">
           Link
         </a>
       </Card.Content>
       <Card.Content>
         <Icon name="github" />
-        <a href={project.repo} target="noreferrer">
-          Github Repository
-        </a>
+        {project.repo ? (
+          <a href={project.repo} target="_blank">
+            Github Repository
+          </a>
+        ) : (
+          <>Private Repository</>
+        )}
       </Card.Content>
       <Card.Content>
         <div style={{ height: "60px" }}>

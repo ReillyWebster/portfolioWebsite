@@ -1,6 +1,11 @@
 import { Container, Divider, Header, List, Segment } from "semantic-ui-react";
 
 export const Footer: React.FC = () => {
+  const currentYear = () => {
+    let today = new Date();
+    console.log(today);
+    return today.getFullYear().toString()
+  }
   return (
     <Segment inverted vertical>
       <Container textAlign="center">
@@ -24,7 +29,7 @@ export const Footer: React.FC = () => {
           </List.Item>
         </List>
         <Divider inverted section />
-        <Header inverted>Reilly Webster @2021</Header>
+        <Header inverted>Reilly Webster @{new Date().getFullYear()}</Header>
       </Container>
     </Segment>
   );

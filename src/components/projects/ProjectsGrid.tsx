@@ -3,6 +3,18 @@ import ProjectCard, { ProjectCardProps } from "./ProjectCard";
 
 const projects: ProjectCardProps[] = [
   {
+    title: "Trivia Overlord",
+    yearCreated: "2023",
+    description:
+      "Turn based combat trivia game created using Unity",
+    languages: "C#",
+    software: "Unity",
+    imageSrc: "/images/triviaOverlord.png",
+    link: "https://strudlay.itch.io/trivia-overlord",
+    contributors:
+      "Reilly Webster",
+  },
+  {
     title: "Were The Wolf Wanders",
     yearCreated: "2022",
     description:
@@ -44,8 +56,8 @@ export const ProjectsGrid: React.FC = () => {
   return (
     <Segment>
       <Card.Group centered>
-        {projects.map((project) => {
-          return <ProjectCard project={project} />;
+        {projects.map((project, key) => {
+          return <ProjectCard project={project} key={key}/>;
         })}
       </Card.Group>
     </Segment>

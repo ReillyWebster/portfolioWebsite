@@ -9,7 +9,7 @@ export const About: React.FC = () => {
             <Segment basic>
               <Image src="/images/reilly.jpg" size="medium" circular centered />
               <Segment basic>
-                <Header as="h2">Reilly Webster</Header>
+                <Header as="h1">Reilly Webster</Header>
                 <List size="large">
                   <List.Item>
                     <List.Content>

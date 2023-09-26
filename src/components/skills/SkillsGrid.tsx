@@ -6,7 +6,7 @@ import WebDevChartFrontend from "../charts/WebDevChartFrontend";
 export const SkillsGrid: React.FC = () => {
   return (
     <Segment textAlign="center">
-      <Card.Group inverted centered>
+      <Card.Group centered>
         <WebDevChartFrontend />
         <WebDevChartBackend />
         <GameDevChart />

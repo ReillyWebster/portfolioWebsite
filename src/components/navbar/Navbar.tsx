@@ -1,11 +1,15 @@
-import { Container, Menu, Segment } from "semantic-ui-react";
+import { Container, Header, Menu, Segment } from "semantic-ui-react";
 
 export const Navbar: React.FC = () => {
   return (
     <Segment inverted vertical>
       <Container>
         <Menu inverted pointing secondary>
-          <Menu.Item position="left">Reilly Webster</Menu.Item>
+          <Menu.Item position="left">
+            <Header as="h1" inverted>
+              Reilly Webster
+            </Header>
+          </Menu.Item>
           {/* <Menu.Item position="right" name="about">
             About
           </Menu.Item>
